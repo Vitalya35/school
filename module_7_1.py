@@ -48,7 +48,7 @@ class Shop:
                 print(f'Продукт {i.name} уже есть в магазине')
             else:
                 with open(self.__file_name, 'a') as file:
-                    file.writelines(str(f'\n{i}'))
+                    file.writelines(str(f'{i}\n'))
                 print(f'Продукт {i.name} добавлен')
 
 s1 = Shop()
