@@ -68,7 +68,7 @@ import random
 # print(x)
 # print(ad)
 
-                                                           # while
+                                                #  -------------------- while ------------------ #
 
 # i = 0
 # while 1:
@@ -127,7 +127,7 @@ import random
 #     n -= 1
 # print(f'факториал = {x}')
 
-                                                        # for
+                                        # ------------------------ for ------------------------- #
 
 # n = int(input('namber: '))
 # for x in range(0,n+1):                           # Пользователь вводит число N. Выведите все числа от 0 до N включительно.
@@ -219,7 +219,7 @@ import random
 # print(unikal(spisok))
 # print(unikal(spisok2))
 
-#                                                         F' строки '
+                                    #    ---------------------------- F' строки ' ----------------------------     #
 
 # from math import pi
 # print(f'значение числа pi {pi:2f}')
@@ -434,5 +434,77 @@ import random
 # print(sredn_age)
 
 
-print(1.01 ** 365)
-print(0.99 ** 365)
+# print(1.01 ** 365)
+# print(0.99 ** 365)
+
+                                                 #        ------------------- ФАЙЛЫ ------------------       #
+import  io
+from pprint import pprint
+
+# x = 'asd.txt'
+# file = open(x, 'r')                               #  «read»
+# pprint(file.read())                               # чтение файла
+# file.close()
+
+# file = open('asd.txt', 'r')
+# pprint(open('asd.txt', 'r').read())               # чтение файла
+# file.close()
+
+# z = 'zxc.txt'
+# file = open(z, 'w')                               # запись в файл(создание)
+# file_1.write('привет')
+# file_1.close()
+
+# file_1 = open('zxc.txt', 'w')                       #  «write»
+# file_1.write('привет    ')                              # запись в файл(создание)
+# file_1.close()
+#
+# file_1 = open('zxc.txt', 'r')
+# pprint(file_1.read())
+# # file_1.close()
+#
+# file_1 = open('zxc.txt', 'a')                       # «append»
+# file_1.write('\nздрасти')                              # добовление в файл(создание)
+# file_1.close()
+
+# file_1 = open('zxc.txt', 'r')
+# pprint(file_1.read())
+# # file_1.close()
+
+# # x = 'zxc.txt'
+# file_1 = open('x ', 'a')                       # «append»
+# file_1.write('\nмордасти')                              # добовление в файл(создание)
+# file_1.close()
+#
+# file_1 = open('zxc.txt', 'r')
+# pprint(file_1.read())
+# file_1.close()
+
+# with open('asd.txt', 'a') as x:
+#     x.write('poka\n')
+#                                  -----------------------------------------------------------------------------
+
+import os
+
+
+def slozhit(a, b):
+
+
+    if float(int(b)):
+        c = a + str(b)
+    elif
+
+        return c
+
+
+print(slozhit(3.3,  'asd' ))
+
+# str_a = '50.85'
+# b = 10.33
+# c = float(str_a) + b
+# print ("The value of c = ",c)
+
+str_a = '5,123,000'
+int_b = int(str_a.replace(',',''))
+print ("The integer value",int_b)
+
