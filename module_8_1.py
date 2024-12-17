@@ -24,11 +24,8 @@ def add_everything_up(a, b):
         return c
 
     except TypeError:
-        z = [a, b]
-        for i in z:
-            if isinstance(i, (int, float)):
-                c = str(a) + str(b)
-                return c
+        c = str(a) + str(b)
+        return c
 
 x = add_everything_up(2,2.2)
 print(x)
