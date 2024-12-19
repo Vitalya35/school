@@ -40,6 +40,8 @@ class IncorrectVinNumber:
     message = 'Некорректный тип vin номер'
 
 
+
+
 class IncorrectCarNumbers:
     message = 'Некорректный тип данных для номеров'
 
