@@ -34,7 +34,7 @@ def sum_three(x, y, z):
     result = x + y + z
     return result
 
-print(x := sum_three(0, 0, ))
+print(x := sum_three(0, 0, 9))
 
 # Пример:
 # result = sum_three(2, 3, 6)
